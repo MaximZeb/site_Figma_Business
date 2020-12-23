@@ -56,3 +56,26 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
+/*шапка*/
+.fonimage {
+  background-image: url("../image/fonImage.svg");
+  background-repeat: no-repeat;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size:  cover; /* Современные браузеры */
+  height: 1042px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto
+  grid-gap: 10px;
+}
+.footer > .margin1, .margin2 {
+  padding: 30px;
+}
+.footer > .footer__content {
+  grid-column: 2 / span 4;
+  grid-row: 1 / 6;
+}
