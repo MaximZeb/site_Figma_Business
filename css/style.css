@@ -82,6 +82,10 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
 }
-nav {
+.content__nav {
   grid-column: 1 / 7;
+}
+.content__Name {
+  grid-column:  2 / 5;
+  justify-content: center;
 }
