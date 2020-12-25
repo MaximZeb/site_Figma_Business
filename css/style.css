@@ -22,7 +22,7 @@ html, body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
+  font-size: 16px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -56,27 +56,29 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
 /*шапка*/
 .footer {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto
-  grid-gap: 10px;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-gap: 0.625em;
   background: url("../image/fonImage.svg") no-repeat center;
   -moz-background-size: 100%; /* Firefox 3.6+ */
   -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
   -o-background-size: 100%; /* Opera 9.6+ */
   background-size: cover; /* Современные браузеры */
-  color:white;
+  color: var(--white);
   height: 100%;
   position: relative;
-}
-@media only screen and (max-width: 780px){
-  .margin1, .margin2 {display: none;}
+  justify-content: center;
 }
 .footer > .footer__content {
-  grid-column: 2 / span 4;
-  grid-row: 1 / 6;
+  grid-column: 2 / span 5;
+  grid-row: 1 / 7;
 }
 .content {
   display: grid;
@@ -88,4 +90,13 @@ h1, h2, h3, h4, h5, h6 {
 .content__Name {
   grid-column:  2 / 5;
   justify-content: center;
+}
+.parent__nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-gap: 1.5em;
+  color: var(--white);
+}
+.link__nav {
+  
 }
