@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 	grid-column: 1 / 7;
 	grid-row: 1 / 2  ;
   	display: grid;
-  	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  	grid-template-columns: auto auto auto auto auto auto auto auto 20px 20px 20px auto;
   	height: 10%;
   	grid-column-gap: 1rem;
 }
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav__footer > a {
 	height: 11%;
-	width: 10%;
+	width: auto;
 	color: var(--white);
 	text-align: center;
 }
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: 5 / 6;
 }
 .items6 {
-  grid-column: 6 / 8;
+  grid-column: 6 / 7;
 }
 .items7 {
   grid-column: 9 / 10;
@@ -122,6 +122,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .items9 {
   grid-column: 11 / 12;
+}
+.figama__nav {
+  width: 100%;
+  height: 100%;
 }
 /*svg sprite facebook twitter*/
 .facebook, .twitter, .in {
