@@ -18,37 +18,88 @@
 	<meta name="Address" content="https://github.com/MaximZeb">
 </head>
 <body>
-	<!-- шапка -->
-	<footer class="footer">
-		<div class="footer__content">
-			<!-- навигация -->
-			<nav class="nav__footer">
-				<a href="" class="items1">Home</a>
-				<a href="" class="items2">Product</a>
-				<a href="" class="items3">Pricing</a>
-				<a href="" class="items4">About</a>
-				<a href="" class="items5">Contact1</a>
-				<a href="" class="items6">
-					<img src="image/Rectangle 4.svg" alt="figma" class="figama__nav">
-				</a>
-				<a href="" class="items7">
-					<svg class="facebook">
-						<use xlink:href="#facebook"></use>
-					</svg>
-				</a>
-				<a href="" class="items8">
-					<svg class="twitter">
-						<use xlink:href="#twitter"></use>
-					</svg>
-				</a>
-				<a href="" class="items9">
-					<svg class="facebook">
-						<use xlink:href="#in"></use>
-					</svg>
-				</a>
-			</nav>
-		</div>
-	</footer>
+	<!-- родитель грид -->
+	<div class="patern__grid">
+		<!-- шапка -->
+		<header class="paterm__item header col-12">
+			<div class="header__content">
+				<!-- навигация -->
+				<nav class="col-12 nav">
+					<div class="col-1">
+						<a href="" class="col-12">
+							Home
+						</a>
+					</div>
+					<div class="col-1">
+						<a href="" class="col-12">
+							Product
+						</a>
+					</div>
+					<div class="col-1">
+						<a href="" class="col-12">
+							Pricing
+						</a>
+					</div>
+					<div class="col-1">
+						<a href="" class="col-12">
+							About
+						</a>
+					</div>
+					<div class="col-1">
+						<a href="" class="col-12">
+							Contact
+						</a>
+					</div>
+					<div class="col-2">
+						<a href="" class="col-12">
+							<span style="border-top: 2px solid #ff6600;">
+					F</span>
+					IGMA L
+					<span style="color:#ff3399;">&#9650;
+					</span>
+				ND
+						</a>
+					</div>
+					<div class="col-1">
+						<a href="" class="col-12">
+							<svg class="facebook">
+								<use xlink:href="#facebook"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="col-1">
+						<a href="" class="col-12">
+							<svg class="twitter">
+								<use xlink:href="#twitter"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="col-1">
+						<a href="" class="col-12">
+							<svg class="facebook">
+								<use xlink:href="#in"></use>
+							</svg>
+						</a>
+					</div>
+				</nav>
+				<div class="col-8 desheader">The best products <br> start with Figma</div>
+				<div class="col-8 desheader2">Most calendars are designed for teams.Slate is designed for freelancers
+				</div>
+				<div class="col-2 buttom__header">
+					<button class="col-12">Try For Free</button>
+				</div>
+			</div>
+		</header>
+		<div class="paterm__item items__2 features"></div>
+		<div class="paterm__item items__3 hero"></div>
+		<div class="paterm__item items__4 cta"></div>
+		<div class="paterm__item items__5 partner"></div>
+		<div class="paterm__item items__6 testimonials"></div>
+		<div class="paterm__item items__8 pricing"></div>
+		<div class="paterm__item items__7 contact"></div>
+		<div class="paterm__item items__9 footer"></div>
+	</div>
+
 <!-- svg sprite -->
 <svg display="none">
 	<symbol id="facebook" viewBox="0 0 408.788 408.788">
