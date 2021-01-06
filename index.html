@@ -79,10 +79,10 @@
 				</nav>
 				<!-- навигация для мобилок -->
 				<nav class="navMobil col-12">
-					<div class="col-5">
+					<div class="col-7 navMobil__img">
 						<a href="#One" class="col-12"><img src="image/figma.svg" alt="figma" class="col-12"></a>
 					</div>
-					<span class="col-2">&#9776;</span>
+					<div class="col-2 navMobil__text" onclick="openNav ()">&#9776;</div>
 				</nav>
 				<!-- описание -->
 				<div class="col-8 desheader"><h1>The best products <br> start with Figma<h1></div>
@@ -128,5 +128,16 @@
 		</g>
 </symbol>
 </svg>
+<!-- выпадающее меню -->
+<div id="myNav" class="col-12 overlay">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div class="col-12 overlay__cocntent">
+		<a href="#One" class="col-">Home</a>
+		<a href="" class="">Product</a>
+		<a href="" class="">Pricing</a>
+		<a href="" class="">About</a>
+		<a href="" class="">Contact</a>
+	</div>
+</div>
 </body>
 </html>

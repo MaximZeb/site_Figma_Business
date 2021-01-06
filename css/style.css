@@ -290,9 +290,60 @@ a:hover {
 }
 @media only screen and (max-width: 430px) {
   .navMobil {
-      display: block;}
+      display: flex;
+      justify-content: space-between;
+    }
 } 
+.navMobil__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navMobil__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
+}
+/*стили для вспылывающего окна мобил*/
+.overlay {
+  height: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  opacity: 0.9;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+.overlay__content {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  margin-top: 15%;
+}
+.overlay a {
+  padding: 8px;
+  font-size: 1.5em;
+  color: #818181;
+  display: block;
+  transition:0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+.overlay, .closebtn {
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  font-size: 2em; 
+}
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px;}
+}
 
 /*svg sprite facebook twitter*/
 .facebook, .twitter, .in {
