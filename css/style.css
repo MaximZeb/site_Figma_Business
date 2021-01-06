@@ -283,6 +283,17 @@ a:hover {
     width: 65%;
   }
 }
+/*навигация для мобилок*/
+.navMobil {
+  
+  display : none;
+}
+@media only screen and (max-width: 430px) {
+  .navMobil {
+      display: block;}
+} 
+
+
 /*svg sprite facebook twitter*/
 .facebook, .twitter, .in {
 	fill: #ffffff;
