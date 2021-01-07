@@ -584,7 +584,42 @@ margin-bottom: 6%;
   grid-column: 2;
   grid-row: 2;
 }
-
+/*слайд pricing*/
+.pricing_c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1210px;
+  margin: 0 auto;
+  place-items:center center;
+  grid-column-gap: 50px;
+}
+.pricing_f {
+  background-color: #DEDEDE;
+  color: var(--white);
+}
+.pricing_p {
+  grid-column: 1;
+  grid-row: 1;
+}
+.Pricing__cardOne, .Pricing__cardTWo, .Pricing__cardThree {
+  background-color: var(--white);
+  color: var(--black);
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  place-items:center center;
+  max-width: 335px;
+  margin: 0 auto;
+}
+.Pricing__cardTWo {
+  grid-column: 2;
+  grid-row: 2;
+}
+.Pricing__cardThree {
+  grid-column: 3;
+  grid-row: 2;
+}
 
 
 /*svg sprite facebook twitter*/
