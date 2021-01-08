@@ -445,6 +445,12 @@ a:hover {
   max-width: 1210px;
   margin: 0 auto;
   align-items: center;
+  cursor: pointer;
+}
+.cta:hover {
+  transform: scaleX(0.99);
+  transform: scaleY(0.99);
+  box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.5); 0px 0px 20px 0 #ffffff;
 }
 .cta__column1 {
   grid-column: 2;
