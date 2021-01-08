@@ -632,14 +632,18 @@ margin-bottom: 6%;
 .Pricing__cardOne:hover {
   transform:translateY(4px);
   box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.6);
+  border: 1px solid #a3a3c2;
 }
 .Pricing__cardTWo:hover {
   transform:translateY(-4px);
   box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.6);
+  border: 1px solid #a3a3c2;
 }
 .Pricing__cardThree:hover {
   transform:translateY(4px);
   box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.6);
+  border: 1px solid #a3a3c2;
+
 }
 .card__header {
   font-size: 1.25em;
