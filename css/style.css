@@ -451,6 +451,8 @@ a:hover {
   transform: scaleX(0.99);
   transform: scaleY(0.99);
   box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.5); 0px 0px 20px 0 #ffffff;
+  border-radius: 1%;
+  border: 1px solid #a3a3c2;
 }
 .cta__column1 {
   grid-column: 2;
@@ -629,12 +631,15 @@ margin-bottom: 6%;
 }
 .Pricing__cardOne:hover {
   transform:translateY(4px);
+  box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.6);
 }
 .Pricing__cardTWo:hover {
   transform:translateY(-4px);
+  box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.6);
 }
 .Pricing__cardThree:hover {
   transform:translateY(4px);
+  box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.6);
 }
 .card__header {
   font-size: 1.25em;
@@ -687,6 +692,11 @@ margin-bottom: 6%;
 .card_btn {
   height: 60px;
 }
+
+
+
+
+
 /*svg sprite facebook twitter*/
 .facebook, .twitter, .in {
 	fill: #ffffff;
