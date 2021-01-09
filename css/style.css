@@ -89,6 +89,7 @@ div, nav, header, footer, main  {
     minmax(1206px, 1fr)
     minmax(567px, 1fr);
   justify-content: center;
+  position: relative;
 }
 /*дети слайды*/
 .header {
@@ -716,6 +717,20 @@ margin-bottom: 6%;
 .contact__map {
   grid-column: 2 / 4;
 }
+
+/* блок для переноса на вер*/х 
+.arrow___link {
+position: absolute;
+z-index: 1;
+border-radius: 35%
+width: 15%;
+height: 15%;
+background-color: var(--blue);
+
+}
+
+
+
 
 
 /*svg sprite facebook twitter*/
