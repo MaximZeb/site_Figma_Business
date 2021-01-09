@@ -724,13 +724,14 @@ margin-bottom: 6%;
 position: fixed;
 z-index: 1;
 border-radius: 50%;
-height: 90px;
-width: 90px;
+height: 70px;
+width: 70px;
 background-color: var(--blue);
-right: 50px;
-bottom: 80px;
+right: 30px;
+bottom: 50px;
 text-align: center;
 display: none;
+opacity: 0.5;
 }
 
 
