@@ -769,7 +769,32 @@ opacity: 0.5;
 .contact__input:befor {
   content: "";
 }
+.contact__map{
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  place-items: center center;
+  height: 50%;
 
+}
+.icon {
+  display: grid;
+  place-items:center center;
+  text-align: center;
+
+}
+.icon__1 {
+  grid-column: 1;
+
+}
+.icon__2 {
+  grid-column: 2;
+}
+.icon__3 {
+  grid-column: 3;
+}
+.map {
+  grid-column: 1 / -1;
+}
 
 
 /*svg sprite facebook twitter*/
