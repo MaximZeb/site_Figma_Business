@@ -196,6 +196,14 @@ div, nav, header, footer, main  {
   font-size: 1em;
   margin-top: 4%; 
 }
+@media only screen and (max-width: 770px) {
+	.nav {
+  		grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.4fr 0.1fr 0.1fr 0.1fr;
+  	}
+  	.left {
+  		font-size: 1.2em;
+  	}
+}
 .desheader {
   grid-column: 1;
   grid-row: 2;
@@ -279,6 +287,7 @@ a:hover {
 .left {
   text-align: left;
 }
+.left
 @media only screen and (max-width: 430px){
   .nav {
     display: none;
@@ -641,6 +650,7 @@ margin-bottom: 6%;
 .btn__partners,.btn__testimonials {
   height: 60px;
 }
+/*слайд testimals*/
 .testimonials {
   display: grid;
   grid-template-columns: 1fr;
@@ -673,6 +683,11 @@ margin-bottom: 6%;
 .testimonials__p2 {
   grid-column: 2;
   grid-row: 2;
+}
+@media only screen and (max-width: 770px) {
+	.btn__testimonials,.btn__partners,.buttom__header {
+		width: 40%;
+	}
 }
 /*слайд pricing*/
 .pricing_c {
