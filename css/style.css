@@ -95,7 +95,7 @@ div, nav, header, footer, main  {
 @media only screen and (max-width: 430px) {
   .patern__grid {
     grid-template-rows: 
-    minmax(1000px, 1fr)
+    minmax(600px, 800px)
     minmax(600px, 1100px)
     minmax(400px, 600px)
     minmax(638px, 738px)
@@ -866,7 +866,7 @@ margin-bottom: 6%;
 	.pricing_c {
 		grid-template-columns: 1fr;
 		grid-template-rows: 200px 1fr 1fr 1fr;
-		grid-column-gap: 10px;
+		grid-column-gap: 0px;
 	}
 	.pricing_p {
   		grid-column: 1;
@@ -875,22 +875,24 @@ margin-bottom: 6%;
 	.Pricing__cardOne {
 		grid-column: 1;
   		grid-row: 2;
-  		max-width: 320px;
+  		max-width: 300px;
+  		margin: 0 auto;
   		margin-top: 5%;
 	}
 	.Pricing__cardTWo {
 		grid-column: 1;
   		grid-row: 3;
   		height: 607px;
-  		max-width: 320px;
+  		max-width: 300px;
+  		margin: 0 auto;
   		margin-top: 5%;
+
 	}
 	.Pricing__cardThree {
 		grid-column: 1;
   		grid-row: 4;
-  		max-width: 320px;
-  		margin-top: 5%;
-  		margin-bottom: 5%;
+  		max-width: 300px;
+  		margin: 5% auto;
 	}
 }
 /*слайд контакты*/
@@ -1004,7 +1006,8 @@ margin-bottom: 6%;
 .contact__form {
   grid-column: 1;
   grid-row: 3;
-  
+  min-width: 300px;
+  margin: 0 auto;
 }
 .contact__map {
   grid-column: 1;
@@ -1015,17 +1018,34 @@ margin-bottom: 6%;
 .icon__1 {
   grid-column: 1;
   grid-row: 1;
+  display: inline-block;
 }
 .icon__2 {
   grid-column: 1;
   grid-row: 2;
+  display: inline-block;
 }
 .icon__3 {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 3;
+  display: inline-block;
 }
 .map {
   display: none;
+}
+.contact__input_t{
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+  color: var(--black);
+  display: block;
+  margin: 5% auto;
+  font-size: 1.3em;
+  max-width: 280px;
+}
+.txt {
+	display: inline-block;
+	max-width: 50%;
 }
 }
 /*слайд подвал*/
