@@ -492,7 +492,21 @@ a:hover {
         minmax(225px, 300px)
         minmax(225px, 300px);
       place-items: center end;
-
+  }
+  	.hero__img,.hero__des {
+  		margin-top: 6%;
+  	}
+  	.hero__des__head{
+  		width: 100%;
+  		margin-top: 4%;
+  	}
+  	.hero__des__btn {
+  		width: 50%;
+  		margin: 4% auto;
+  	}
+  	.hero__des__des {
+  		margin-top: 4%;
+  	}
   }
   .hero__img {
     margin-left: 0px;
