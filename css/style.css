@@ -103,7 +103,7 @@ div, nav, header, footer, main  {
     minmax(811px, 811px)
     minmax(1155px, 1fr)
     minmax(1006px, 1200px)
-    minmax(567px, 1fr);
+    minmax(567px, 1400px);
   }
 }
 /*дети слайды*/
@@ -331,6 +331,8 @@ a:hover {
   display: table-cell;
   vertical-align: middle;
   cursor: pointer;
+  margin: auto 2% auto auto;
+  height: 100%;
 }
 .navMobil__img {
   cursor: pointer;
@@ -1145,7 +1147,6 @@ margin-bottom: 6%;
   text-align: center;
   display: block;
   margin: 5%;
-
 }
 .head__list {
   font-weight:bold;
@@ -1196,9 +1197,10 @@ margin-bottom: 6%;
   .content__footer {
     grid-template-columns: 1fr;
     grid-template-rows: 
-       minmax(267px, 300px)
-       minmax(267px, 300px)
-       minmax(267px, 300px);
+       minmax(267px, 350px)
+       minmax(267px, 350px)
+       minmax(267px, 350px)
+       minmax(267px, 250px);
     margin: 0%;
 }
   .footer__list_1 {
@@ -1222,9 +1224,18 @@ margin-bottom: 6%;
     margin: 0%;
   }
   .head__list {
+    font-size: 1.8em;
   	margin: 0%;
   }
+.link__footer {
+  text-align: center;
+  display: block;
+  margin: 3% auto;
 }
+}
+
+
+
 
 
 
