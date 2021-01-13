@@ -477,43 +477,15 @@ a:hover {
   display: grid;
   grid-template-columns:  1fr 1fr;
   grid-template-rows: 
-    minmax(1fr, 1fr)
     minmax(1fr, 1fr);
-  justify-content: space-between;
   max-width: 1243.3px;
   margin: 0 auto;
-  align-items: end;
+  place-items: center center;
   transition: 0.5s; 
 }
-@media only screen and (max-width: 430px) {
-  .hero {
-      grid-template-columns:  1fr;
-      grid-template-rows: 
-        minmax(225px, 300px)
-        minmax(225px, 300px);
-      place-items: center end;
-  }
-  	.hero__img,.hero__des {
-  		margin-top: 6%;
-  	}
-  	.hero__des__head{
-  		width: 100%;
-  		margin-top: 4%;
-  	}
-  	.hero__des__btn {
-  		width: 50%;
-  		margin: 4% auto;
-  	}
-  	.hero__des__des {
-  		margin-top: 4%;
-  	}
-  }
-  .hero__img {
-    margin-left: 0px;
-    grid-row: 2;
-    grid-column: 1;
-    width: 100%;
-    height: 100%;
+.hero__img {
+    grid-row: 1;
+    grid-column: 2;
 }
 .hero__des {
     grid-row: 1;
@@ -521,7 +493,6 @@ a:hover {
     margin: 0 auto;
     max-width: 320px; 
     text-align: center;
-}
 }
 .hero__des__head, .hero__des__des {
   text-align: left;
@@ -540,6 +511,43 @@ a:hover {
   box-shadow:  0px 0px 20px 0 rgba(0, 0, 0, 0.5); 0px 0px 20px 0 #ffffff;
   border-radius: 1%;
   border: 1px solid #a3a3c2;
+}
+@media only screen and (max-width: 430px){ 
+  .hero {
+      grid-template-columns:  1fr;
+      grid-template-rows: 
+        minmax(225px, 300px)
+        minmax(225px, 300px);
+      place-items: center end;
+  }
+    .hero__img,.hero__des {
+      margin-top: 6%;
+    }
+    .hero__des__head{
+      width: 100%;
+      margin-top: 4%;
+    }
+    .hero__des__btn {
+      width: 50%;
+      margin: 4% auto;
+    }
+    .hero__des__des {
+      margin-top: 4%;
+    }
+    .hero__des {
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0 auto;
+    max-width: 320px; 
+    text-align: center;
+}
+.hero__img {
+    margin-left: 0px;
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    height: 100%;
+}
 }
 /*слайд ста*/
 .cta {
@@ -632,6 +640,10 @@ margin-bottom: 6%;
 }
 .column1__item5 {
   height: 60px;
+}
+.cta__btn {
+  display: inline-block;
+  margin: 1%;
 }
 /*слайд партнеры*/
 .partner{
