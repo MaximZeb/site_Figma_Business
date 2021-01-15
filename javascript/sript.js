@@ -34,3 +34,12 @@ for (let anchor of anchors) {
 		});
 	});
 }
+// попап окно 
+function popup () {
+	let Popup = document.getElementById('popup');
+	Popup.style.display = 'block';
+}
+function close_popup() {
+	let Popup = document.getElementById('popup');
+	Popup.style.display = 'none';
+}

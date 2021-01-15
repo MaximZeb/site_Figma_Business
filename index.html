@@ -89,7 +89,7 @@
 				<div class="col-8 desheader2">Most calendars are designed for teams.Slate is designed for freelancers
 				</div>
 				<div class="col-3 buttom__header">
-					<button class="col-12 button__figma">Try For Free</button>
+					<button class="col-12 button__figma " onclick="popup()">Try For Free</button>
 				</div>
 			</div>
 		</header>
@@ -545,7 +545,25 @@
 	<div class="col-12 arrow___link_g">
 		<a href="#start" class="col-12">^</a>
 	</div>
-
+</div>
+<!-- модальное окно  -->
+<div id="popup" class="col-12 popup" >
+	<div class="col-12" onclick="close_popup()">
+		
+	</div>
+	<div class="col-1 popup_close" onclick="close_popup()">X</div>
+	<div class="col-5 popup_cont" id="popup_close">
+		<div class="col-12 form">
+					<div class="col-6 Contact__Us">Send to form</div>
+					<form action="">
+						<input class="col-9 contact__input" type="text" name="Your Name" placeholder="Your Name">
+						<input class="col-9 contact__input" type="text"  placeholder="Your Email">
+						<textarea class="contact__input_t" name="" id="" cols="30" rows="12" placeholder="Your Message">
+						</textarea>
+						<div class="col-10 btn_form"><button class="col-7 button__figma">Send</button></div>
+					</form>
+			</div>
+	</div>
 </div>
 </body>
 </html>
