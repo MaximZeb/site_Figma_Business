@@ -35,11 +35,15 @@ for (let anchor of anchors) {
 	});
 }
 // попап окно 
-function popup () {
-	let Popup = document.getElementById('popup');
-	Popup.style.display = 'flex';
-}
 function close_popup() {
 	let Popup = document.getElementById('popup');
 	Popup.style.display = 'none';
+	let blur = document.getElementById('One');
+	blur.classList.toggle('active');
+}
+function toggle() {
+	let blur = document.getElementById('One');
+	blur.classList.toggle('active');
+	let Popup = document.getElementById('popup');
+	Popup.style.display = 'flex';
 }
